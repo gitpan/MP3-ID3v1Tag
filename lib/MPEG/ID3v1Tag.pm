@@ -12,11 +12,8 @@ use MP3::ID3v1Tag;
 @EXPORT = @MP3::ID3v1Tag::EXPORT;
 @EXPORT_OK = @MP3::ID3v1Tag::EXPORT_OK;
 
-$MP3::ID3v1Tag::VERSION = do { my @r = (q$Revision: 2.8 $ =~ /\d+/g); $r[0]--;sprintf "%d."."%02d" x $#r, @r }; # must be all one line, for MakeMaker
+$MPEG::ID3v1Tag::VERSION = do { my @r = (q$Revision: 2.10 $ =~ /\d+/g); $r[0]--;sprintf "%d."."%02d" x $#r, @r }; # must be all one line, for MakeMaker
 
-## Revision and debuging
-$MP3::ID3v1Tag::revision = '$Id: ID3v1Tag.pm,v 2.8 2000/03/14 18:29:05 sander Exp $ ';
-  
 1;
 
 =pod
@@ -46,9 +43,10 @@ Johansson
 
 =head1 COPYRIGHT
 
-Copyright 1999,2000, MP3.com, Inc. All rights reserved. This program is free
-software; you can redistribute it and/or modify it under the same 
-terms as Perl itself.
+Copyright 1999-2000, Sander van Zoest, MP3.com, Inc. All rights reserved. 
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =head1 REFERENCES
 

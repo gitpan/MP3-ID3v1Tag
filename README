@@ -24,7 +24,6 @@ If you have any issues with this module, feel free to relay them to me.
 I am not actively developing on this anymore, but do plan on making
 bug fix releases. Any patches for features or bug fixes will be appreciated.
 
-Sander van Zoest <sander@mp3.com>
-MP3.com, Inc.
+Sander van Zoest <svanzoest@cpan.org>
 
-$Id: README,v 2.6 2000/03/14 18:29:05 sander Exp $
+$Id: README,v 2.7 2000/06/27 09:30:53 sander Exp $

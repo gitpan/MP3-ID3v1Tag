@@ -1,6 +1,6 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # $Id: Makefile.PL,v 2.8 2000/03/14 18:29:05 sander Exp $
-# $Source: /cvsroot/tools/id3v1/Makefile.PL,v $
+# $Source: /cvs/root/packages/perl/id3v1/Makefile.PL,v $
 #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 require 5.004;
