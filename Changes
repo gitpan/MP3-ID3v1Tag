@@ -1,4 +1,10 @@
 
+1.09 (Mar 14, 2000)
+----
+- Removed the __END__ 
+- Added MPEG::ID3v1Tag wrapper for 
+  backwards compatibility.
+
 1.08 (Mar 14, 2000)
 ----
 - Changed to MP3:: name space
@@ -25,4 +31,4 @@
 ----
 - First Public Release
 
-$Id: Changes,v 1.7 2000/03/14 19:28:12 sander Exp $
+$Id: Changes,v 1.9 2000/03/15 00:13:47 sander Exp $

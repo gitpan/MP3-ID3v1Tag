@@ -3,4 +3,5 @@ MANIFEST			This list of files
 Makefile.PL			Makefile generator
 README				README
 lib/MP3/ID3v1Tag.pm		The Module
+lib/MPEG/ID3v1Tag.pm		Wrapper for backwards compatibility
 t/useme.t			test sample

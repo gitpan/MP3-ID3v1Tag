@@ -2,7 +2,7 @@ package MP3::ID3v1Tag;
 require 5.004;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# $Id: ID3v1Tag.pm,v 2.8 2000/03/14 18:29:05 sander Exp $
+# $Id: ID3v1Tag.pm,v 2.9 2000/03/15 00:10:56 sander Exp $
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 use strict;
@@ -15,10 +15,10 @@ require Exporter;
 @EXPORT = qw();
 @EXPORT_OK = qw();
 
-$MP3::ID3v1Tag::VERSION = do { my @r = (q$Revision: 2.8 $ =~ /\d+/g); $r[0]--;sprintf "%d."."%02d" x $#r, @r }; # must be all one line, for MakeMaker
+$MP3::ID3v1Tag::VERSION = do { my @r = (q$Revision: 2.9 $ =~ /\d+/g); $r[0]--;sprintf "%d."."%02d" x $#r, @r }; # must be all one line, for MakeMaker
 
 ## Revision and debuging
-$MP3::ID3v1Tag::revision = '$Id: ID3v1Tag.pm,v 2.8 2000/03/14 18:29:05 sander Exp $ ';
+$MP3::ID3v1Tag::revision = '$Id: ID3v1Tag.pm,v 2.9 2000/03/15 00:10:56 sander Exp $ ';
 my $DEBUG = 0;
 
 ## SOME USEFULL CONSTANTS.
@@ -307,8 +307,6 @@ sub tag {
   
 1;
 
-__END__
-
 =pod
 
 =head1 NAME
@@ -409,7 +407,7 @@ Johansson
 
 =head1 COPYRIGHT
 
-Copyright 1999, MP3.com, Inc. All rights reserved. This program is free
+Copyright 1999,2000, MP3.com, Inc. All rights reserved. This program is free
 software; you can redistribute it and/or modify it under the same 
 terms as Perl itself.
 
