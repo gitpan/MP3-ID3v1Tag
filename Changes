@@ -1,3 +1,9 @@
+1.11 (September 1, 2000)
+
+- fixed REFERENCES, broken urls etc.
+- adjusted Copyright
+- removed MPEG::ID3v1Tag wrapper
+
 1.10 (June 27, 2000)
 
 - Fixed print_genre_chart() spot by Olaf Maetzner
@@ -35,4 +41,4 @@
 ----
 - First Public Release
 
-$Id: Changes,v 1.10 2000/06/27 09:30:53 sander Exp $
+$Id: Changes,v 1.12 2000/09/01 20:27:18 sander Exp $

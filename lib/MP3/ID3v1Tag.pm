@@ -2,7 +2,7 @@ package MP3::ID3v1Tag;
 require 5.004;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# $Id: ID3v1Tag.pm,v 2.10 2000/06/27 09:30:57 sander Exp $
+# $Id: ID3v1Tag.pm,v 2.11 2000/09/01 00:26:18 sander Exp $
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 use strict;
@@ -15,10 +15,10 @@ require Exporter;
 @EXPORT = qw();
 @EXPORT_OK = qw();
 
-$MP3::ID3v1Tag::VERSION = do { my @r = (q$Revision: 2.10 $ =~ /\d+/g); $r[0]--;sprintf "%d."."%02d" x $#r, @r }; # must be all one line, for MakeMaker
+$MP3::ID3v1Tag::VERSION = do { my @r = (q$Revision: 2.11 $ =~ /\d+/g); $r[0]--;sprintf "%d."."%02d" x $#r, @r }; # must be all one line, for MakeMaker
 
 ## Revision and debuging
-$MP3::ID3v1Tag::revision = '$Id: ID3v1Tag.pm,v 2.10 2000/06/27 09:30:57 sander Exp $ ';
+$MP3::ID3v1Tag::revision = '$Id: ID3v1Tag.pm,v 2.11 2000/09/01 00:26:18 sander Exp $ ';
 my $DEBUG = 0;
 
 ## SOME USEFULL CONSTANTS.
@@ -397,7 +397,7 @@ foreach (sort $mp3_file->tag) {
 
 =head1 AUTHOR
 
-Sander van Zoest E<lt>sander@mp3.comE<gt>
+Sander van Zoest E<lt>svanzoest@cpan.orgE<gt>
 
 =head1 THANKS
 
@@ -407,17 +407,27 @@ Johansson
 
 =head1 COPYRIGHT
 
-Copyright 1999-2000, Sander van Zoest, MP3.com, Inc. All rights reserved. 
+Copyright 2000, Alexander van Zoest. All rights reserved.
+Copyright 1999-2000, Alexander van Zoest, MP3.com, Inc. All rights reserved. 
 
 This program is free software; you can redistribute it and/or modify it 
 under the same terms as Perl itself.
 
 =head1 REFERENCES
 
-For general overview of MPEG 1, Layer 3 (MP3) Audio visit http://www.mp3.com/
+For general overview of MPEG 1.0, Layer 3 (MP3) Audio visit 
+<http://help.mp3.com/help/gettingstarted/guide.html> or get the book,
+"MP3: The Definitive Guide" by O'Reilly and Associates
+<http://www.oreilly.com/catalog/mp3/>.
+
+For technical details about MP3 Audio read the 
+ISO/IEC 11172 and ISO/IEC 13818 specifications, obtained via 
+<http://www.ANSI.org/> in the US or <http://www.ISO.ch/> 
+elsewhere in the world. For more information also check 
+out <http://www.mp3-tech.org/> compiled by Gabriel Bouvigne.
 
 For more specific references to the MP3 Audio ID3 Tags visit 
-http://www.id3.org/
+<http://www.id3.org/>
 
 For information about ID3v2 and a perl implementation see MPEG::ID3v2Tag 
 written by Matt DiMeo E<lt>mattd@mp3.comE<gt>.
